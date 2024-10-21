@@ -1,0 +1,22 @@
+{
+  "name": "e2e-automation-test-cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedro95nunes/e2e-automation-test-cypress.git"
+  },
+  "author": "Pedro Nunes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pedro95nunes/e2e-automation-test-cypress/issues"
+  },
+  "homepage": "https://github.com/pedro95nunes/e2e-automation-test-cypress#readme",
+  "devDependencies": {
+    "cypress": "^13.15.0"
+  }
+}
