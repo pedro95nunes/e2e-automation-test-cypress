@@ -1,4 +1,6 @@
-class Index {
+import Page from "../Page";
+
+class Index extends Page {
 
     accessPage(){
         cy.visit("/");

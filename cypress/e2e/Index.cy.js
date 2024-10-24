@@ -10,11 +10,12 @@ describe("E2E tests",() =>{
         Index.accessPage();
     })
 
-    it("Should click on button 1", ()=>{
+    it("Should drive to Second page", ()=>{
         Index.clickOn(element.btn1);
+        Index.validateSlug("/second")
+        Index.clickOn(element.btn2);
+        Index.validateSlug("/")
     })
 
-    it("Should click on button 2", ()=>{
-        Index.clickOn(element.btn2);
-    })
+    
 })
