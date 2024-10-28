@@ -10,6 +10,10 @@ class Page {
         cy.location('href').should('contains', slug);
     }
 
+    clickOn(element){
+        cy.get(element).click();
+    }
+
 
 }
 
